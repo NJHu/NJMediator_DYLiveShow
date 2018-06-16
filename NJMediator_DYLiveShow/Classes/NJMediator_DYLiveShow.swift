@@ -10,7 +10,7 @@ fileprivate let kMediator_Action_NativeFetchLiveShowMainViewController = "mainVi
 extension NJMediator {
     //        (lldb) po #selector(nj_backBtnClick(btn:))
     //        nj_backBtnClickWithBtn:
-    public func Mediator_DYTrends_MainController() -> UIViewController? {
+    public func Mediator_DYLiveShow_MainController() -> UIViewController? {
 
         let result = self.perform(nameSpace: kMediator_Target_NameSpace, target: kMediator_Target_LiveShow, action: kMediator_Action_NativeFetchLiveShowMainViewController, params: nil, shouldCacheTarget: false)
 
