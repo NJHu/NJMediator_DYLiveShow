@@ -1,0 +1,23 @@
+PODS:
+  - NJMediator (1.0.0)
+  - NJMediator_DYLiveShow (0.1.0):
+    - NJMediator
+
+DEPENDENCIES:
+  - NJMediator_DYLiveShow (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NJMediator
+
+EXTERNAL SOURCES:
+  NJMediator_DYLiveShow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NJMediator: 4185be5b949188a933d031634df117020129d103
+  NJMediator_DYLiveShow: 4e3102f2b88f6fb2fe9b35034b3cd2f1d49ee49e
+
+PODFILE CHECKSUM: af73889fa14ea77e4ce020077b889a36a162466e
+
+COCOAPODS: 1.5.3
