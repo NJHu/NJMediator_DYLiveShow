@@ -12,7 +12,7 @@ extension NJMediator {
     //        nj_backBtnClickWithBtn:
     public func Mediator_DYTrends_MainController() -> UIViewController? {
 
-        let result = self.perform(nameSpace: kMediator_Target_NameSpace, target: kMediator_Target_Trends, action: kMediator_Action_NativeFetchTrendsMainViewController, params: nil, shouldCacheTarget: true)
+        let result = self.perform(nameSpace: kMediator_Target_NameSpace, target: kMediator_Target_LiveShow, action: kMediator_Action_NativeFetchLiveShowMainViewController, params: nil, shouldCacheTarget: false)
 
         return result as? UIViewController
         
